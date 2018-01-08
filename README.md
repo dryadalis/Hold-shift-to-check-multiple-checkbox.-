@@ -1,1 +1,1 @@
-# Hold-shift-to-check-multiple-checkbox.-
+# Hold-shift-to-check-multiple-checkboxes. 
