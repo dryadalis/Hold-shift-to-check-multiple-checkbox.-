@@ -7,6 +7,7 @@ body {
     margin: 50px auto;
     background: #D4DDE1;
     border-radius: 5px;
+    box-shadow: 2px 4px 10px #D4DDE1;
 }
 
 .item {
@@ -17,6 +18,7 @@ body {
 
 .item:last-child {
     border-bottom: 0;
+    float: right;
 }
 
 input:checked + p {
@@ -27,7 +29,20 @@ text-decoration: line-through #AA4B41;
 input[type="checkbox"] {
     margin: 20px;
 }
-p{
+p {
     font-size: 18px;
+    font-weight: 200;
     font-family: Poppins;
+    margin: 0;
+    flex: 1;
+    transition: background 0.2s;
+}
+.button1 {
+    display: flex;
+    min-height: 30px;
+    text-align: center;
+    font-family: Poppins;
+    background-color: #D4DDE1;
+    border: 2px dotted #335252;
+    margin: 5px;
 }
